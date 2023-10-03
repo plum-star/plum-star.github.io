@@ -1,16 +1,10 @@
 # plum-star.github.io
 cd plum-star.github.io
 
-echo "Hello World" > index.html
-git add --all
+git clone https://github.com/titaniumnetwork-dev/alloyproxy.git
 
-git commit -m "Initial commit"
+cd alloyproxy
 
-git push -u origin main
+npm install
 
-$ git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
-$ cd Ultraviolet-Node
-$ npm install
-$ npm start 
-
-interstellar build
+npm start
